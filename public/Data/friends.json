@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Ayaan Rahman",
-    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
     "email": "ayaan.rahman@example.com",
     "days_since_contact": 3,
     "status": "on-track",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "name": "Meher Islam",
-    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
     "email": "meher.islam@example.com",
     "days_since_contact": 10,
     "status": "almost due",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "name": "Tanvir Hossain",
-    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
     "email": "tanvir.hossain@example.com",
     "days_since_contact": 18,
     "status": "overdue",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "name": "Nusrat Jahan",
-    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
     "email": "nusrat.jahan@example.com",
     "days_since_contact": 6,
     "status": "on-track",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "Rakib Ahmed",
-    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
     "email": "rakib.ahmed@example.com",
     "days_since_contact": 25,
     "status": "overdue",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "Sadia Noor",
-    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
     "email": "sadia.noor@example.com",
     "days_since_contact": 2,
     "status": "on-track",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "name": "Fahim Karim",
-    "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
     "email": "fahim.karim@example.com",
     "days_since_contact": 14,
     "status": "almost due",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "name": "Tasmia Akter",
-    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
     "email": "tasmia.akter@example.com",
     "days_since_contact": 1,
     "status": "on-track",
@@ -94,5 +94,53 @@
     "bio": "Travel buddy. We plan trips together and explore new places often.",
     "goal": 7,
     "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 9,
+    "name": "Sajid Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "sajid.hasan@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["colleague", "tech"],
+    "bio": "Expert in React and Node.js. Often helps me with architectural decisions.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 10,
+    "name": "Liza Mariyam",
+    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "email": "liza.m@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["neighbor", "photography"],
+    "bio": "Incredible photographer. We often go on photo walks around the city.",
+    "goal": 14,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 11,
+    "name": "Arif Bin Walid",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "arif.walid@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["school friend", "football"],
+    "bio": "Old school friend. We used to play in the same football team.",
+    "goal": 21,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 12,
+    "name": "Zarin Subah",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "zarin.s@example.com",
+    "days_since_contact": 0,
+    "status": "on-track",
+    "tags": ["best friend", "music"],
+    "bio": "Shares my taste in music. We are currently learning to play the guitar together.",
+    "goal": 7,
+    "next_due_date": "2026-04-14"
   }
 ]
