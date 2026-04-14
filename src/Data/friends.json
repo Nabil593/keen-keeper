@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Ayaan Rahman",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    "email": "ayaan.rahman@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["college", "project partner"],
+    "bio": "Worked together on multiple web development projects. Very active in coding contests.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 2,
+    "name": "Meher Islam",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+    "email": "meher.islam@example.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school friend", "design"],
+    "bio": "Creative designer who loves UI/UX and often shares design inspiration.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Hossain",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "email": "tanvir.hossain@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["gym buddy", "close friend"],
+    "bio": "Fitness enthusiast. We used to train together regularly at the local gym.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["college", "study group"],
+    "bio": "Top student in our study group. Always helps with difficult subjects.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 5,
+    "name": "Rakib Ahmed",
+    "picture": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d",
+    "email": "rakib.ahmed@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["childhood friend", "gaming"],
+    "bio": "Grew up together and still play online games when we get time.",
+    "goal": 14,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "name": "Sadia Noor",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "email": "sadia.noor@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["college", "startup"],
+    "bio": "Working on a startup idea together. Very passionate about entrepreneurship.",
+    "goal": 7,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 7,
+    "name": "Fahim Karim",
+    "picture": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
+    "email": "fahim.karim@example.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["developer", "hackathon team"],
+    "bio": "Hackathon teammate. Loves backend development and system design.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Tasmia Akter",
+    "picture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    "email": "tasmia.akter@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["close friend", "travel"],
+    "bio": "Travel buddy. We plan trips together and explore new places often.",
+    "goal": 7,
+    "next_due_date": "2026-04-15"
+  }
+]
