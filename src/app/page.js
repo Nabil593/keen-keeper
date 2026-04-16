@@ -16,6 +16,8 @@ export default function Home() {
     featchFriends();
   }, []);
 
+  if (friends.length === 0) return <div className="text-center p-20 text-2xl text-black font-bold">Loading...</div>
+
   return (
     <div className="max-w-[1300px] mx-auto w-full space-y-20 mb-30">
       <div className="text-center mt-20 space-y-6">
