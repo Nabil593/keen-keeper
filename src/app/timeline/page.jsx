@@ -6,6 +6,7 @@ import call from "@/app/assets/call.png";
 import text from "@/app/assets/text.png";
 import video from "@/app/assets/video.png";
 import { useState } from "react";
+import { FiInbox, FiSearch } from "react-icons/fi";
 
 const TimelinePage = () => {
 
@@ -22,14 +23,18 @@ const TimelinePage = () => {
     return (
         <div className="max-w-[1200px] mx-auto w-full my-20 space-y-8 mb-30 lg:px-12 md:px-6 px-4">
 
-            <h2 className="lg:text-5xl md:text-4xl text-4xl font-bold">Timeline</h2>
+            <h2 className="lg:text-4xl md:text-4xl text-3xl font-bold">Timeline</h2>
 
             {interactions.length === 0
-                ? <p className="text-center text-gray-500">No interactions found.</p>
+                ? <div className="text-gray-500 flex flex-col items-center justify-center"><FiInbox className="text-6xl" /> <p>No interactions found.</p></div>
                 : <div className="space-y-8">
                     <div className="flex lg:flex-row md:flex-row flex-col-reverse gap-8 justify-between">
-                        <div className="w-full">
-                            <select value={filterType} onChange={(e) => setFilterType(e.target.value)} className="select appearance-none bg-white border border-gray-300 rounded p-2">
+                        <div className="w-full lg:w-48">
+                            <select
+                                value={filterType}
+                                onChange={(e) => setFilterType(e.target.value)}
+                                className="select select-bordered w-full bg-white border-gray-300 focus:outline-none focus:ring-1 focus:ring-gray-300"
+                            >
                                 <option value="All">All Timeline</option>
                                 <option value="call">Call</option>
                                 <option value="text">Text</option>
@@ -37,7 +42,7 @@ const TimelinePage = () => {
                             </select>
                         </div>
 
-                        <label className="input bg-white border-gray-300">
+                        <label className="input bg-white border-gray-300 w-full lg:w-70">
                             <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <g
                                     strokeLinejoin="round"
