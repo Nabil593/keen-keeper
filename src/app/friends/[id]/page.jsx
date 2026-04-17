@@ -10,6 +10,7 @@ import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineTextsms } from "react-icons/md";
 import { PiArchiveBold, PiBellSimpleZBold, PiVideoCameraBold } from "react-icons/pi";
 import { RiDeleteBinLine } from "react-icons/ri";
+import { toast } from 'react-toastify';
 
 
 const SingleCard = () => {
@@ -122,17 +123,29 @@ const SingleCard = () => {
                     <div className="w-full bg-white shadow-sm p-8 rounded-[8px] space-y-4">
                         <p className="text-[20px] font-medium text-[#244D3F]">Quick Check In</p>
                         <div className="flex lg:flex-row md:flex-row flex-col gap-6">
-                            <button onClick={() => addInteraction(singleFriend, "call")} className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96">
+                            {/* Call Button */}
+                            <button
+                                onClick={() => { addInteraction(singleFriend, "call"); toast.success("Call added!"); }}
+                                className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96"
+                            >
                                 <LuPhoneCall className="text-3xl" />
                                 <p className="text-gray-700">Call</p>
                             </button>
 
-                            <button onClick={() => addInteraction(singleFriend, "text")} className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96">
+                            {/* Text Button */}
+                            <button
+                                onClick={() => { addInteraction(singleFriend, "text"); toast.success("Text added!"); }}
+                                className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96"
+                            >
                                 <MdOutlineTextsms className="text-3xl" />
                                 <p className="text-gray-700">Text</p>
                             </button>
 
-                            <button onClick={() => addInteraction(singleFriend, "video")} className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96">
+                            {/* Video Button */}
+                            <button
+                                onClick={() => { addInteraction(singleFriend, "video"); toast.success("Video added!"); }}
+                                className="w-full bg-gray-100 shadow-sm flex flex-col items-center justify-center gap-2 px-8 py-4 text-center rounded-[8px] cursor-pointer transition-transform duration-150 active:scale-96"
+                            >
                                 <PiVideoCameraBold className="text-3xl" />
                                 <p className="text-gray-700">Video</p>
                             </button>
