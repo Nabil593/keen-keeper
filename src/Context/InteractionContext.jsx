@@ -2,33 +2,39 @@
 
 import React, { createContext, useContext, useState } from 'react';
 
-// ১. মেইন কনটেক্সট তৈরি (এটি বাইরে থাকবে)
 export const InteractionContext = createContext();
 
-const InteractionProvider = ({ children }) => { // children প্রপ হিসেবে আসবে
+const InteractionProvider = ({ children }) => {
 
-    const [interactions, setInteractions] = useState([]); // অনেকগুলো ডাটা রাখার জন্য Array [] ব্যবহার করা ভালো
+    const [interactions, setInteractions] = useState([]);
 
     const addInteraction = (friend, type) => {
         const newEntry = {
             id: Date.now(),
             friendName: friend.name,
             action: type,
-            timeDate: new Date().toLocaleString()
+            timeDate: new Date().toLocaleDateString('en-US', {
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric'
+            }),
+            todayTime: new Date().toLocaleTimeString('en-US', {
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+            })
         };
-        // নতুন ডাটাকে আগের ডাটাগুলোর সামনে যোগ করা
+
         setInteractions(prev => [newEntry, ...prev]);
     };
 
     return (
-        // ২. Provider এর মাধ্যমে ভ্যালু পাস করা
         <InteractionContext.Provider value={{ interactions, addInteraction }}>
-            {children} 
+            {children}
         </InteractionContext.Provider>
     );
 };
 
-// ৩. ডাটা ব্যবহারের জন্য একটি কাস্টম হুক (সহজ করার জন্য)
 export const useInteractions = () => useContext(InteractionContext);
 
 export default InteractionProvider;
