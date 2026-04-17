@@ -23,12 +23,12 @@ const FriendCard = ({ friend }) => {
           </figure>
         </div>
 
-        <div className="card-body items-center text-center">
+        <div className="card-body items-center text-center space-y-2">
           <h2 className="card-title text-xl font-bold">
             {friend.name}
           </h2>
 
-            <p>{friend.days_since_contact}d ago</p>
+            <p className='text-gray-400'>{friend.days_since_contact}d ago</p>
 
           <div className="card-actions justify-center">
             {friend?.tags?.map((tag, index) => (
