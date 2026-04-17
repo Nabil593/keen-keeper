@@ -3,7 +3,9 @@
 import { useInteractions } from "@/Context/InteractionContext";
 import Image from "next/image";
 import { useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import { FiArrowLeft } from "react-icons/fi";
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineTextsms } from "react-icons/md";
 import { PiArchiveBold, PiBellSimpleZBold, PiVideoCameraBold } from "react-icons/pi";
@@ -18,6 +20,8 @@ const SingleCard = () => {
 
     const [singleFriend, setSingleFriend] = useState(null);
 
+    const router = useRouter();
+
 
     useEffect(() => {
         const featchFriends = async () => {
@@ -31,7 +35,6 @@ const SingleCard = () => {
 
     if (!singleFriend) return <span className="loading loading-spinner loading-xl"></span>;
 
-    // Status color logic
     const statusColor =
         singleFriend.status === "on-track" ? "badge-success" :
             singleFriend.status === "overdue" ? "badge-error" : "badge-warning";
@@ -39,7 +42,9 @@ const SingleCard = () => {
 
 
     return (
-        <div className="max-w-[1200px] mx-auto w-full my-20 lg:px-12 md:px-6 px-4 flex lg:flex-row flex-col gap-6">
+        <div className="max-w-[1200px] mx-auto w-full my-14 lg:px-12 md:px-6 px-4 flex flex-col  gap-6">
+            <button onClick={() => router.back()} className="cursor-pointer flex items-center gap-2 font-medium"><FiArrowLeft /> <p>Back</p></button>
+            <div className="flex lg:flex-row flex-col gap-6">
             <div className="lg:w-[50%] md:w-full ">
                 <div className=" bg-white w-full shadow-sm rounded-md border border-gray-100 mb-4">
 
@@ -131,6 +136,7 @@ const SingleCard = () => {
                         </button>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );

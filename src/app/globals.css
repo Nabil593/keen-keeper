@@ -1,27 +1,32 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-/* globals.css */
-
 * {
-  font-family: inherit; /* Eta dile layout parent theke font niye nibe */
+  font-family: inherit;
 }
 
-/* Ba direct jodi full project-e apply korte chao layout e font variable set kore */
 :root {
   --font-geist: 'Geist', sans-serif;
 }
 
 * {
-  font-family: var(--font-geist) !important;
+  font-family: var(--font-geist);
 }
 
-/* Click korle jate focus border na ashe */
-path.recharts-sector:focus {
-  outline: none !important;
+
+path:focus, 
+.recharts-sector:focus, 
+.recharts-pie-sector:focus,
+.recharts-curve:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
-/* Sudhu stroke remove korte chaile */
-.recharts-pie-sector {
+.recharts-surface:focus {
+  outline: none;
+}
+
+svg:focus {
   outline: none;
 }
