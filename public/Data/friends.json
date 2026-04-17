@@ -6,10 +6,10 @@
     "email": "ayaan.rahman@example.com",
     "days_since_contact": 3,
     "status": "on-track",
-    "tags": ["college", "project partner"],
+    "tags": ["College", "Project Partner"],
     "bio": "Worked together on multiple web development projects. Very active in coding contests.",
     "goal": 7,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "May 02, 2026"
   },
   {
     "id": 2,
@@ -18,10 +18,10 @@
     "email": "meher.islam@example.com",
     "days_since_contact": 10,
     "status": "almost due",
-    "tags": ["school friend", "design"],
+    "tags": ["School Friend", "Design"],
     "bio": "Creative designer who loves UI/UX and often shares design inspiration.",
     "goal": 14,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "Jun 15, 2026"
   },
   {
     "id": 3,
@@ -30,10 +30,10 @@
     "email": "tanvir.hossain@example.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["gym buddy", "close friend"],
+    "tags": ["Gym Buddy", "Close Friend"],
     "bio": "Fitness enthusiast. We used to train together regularly at the local gym.",
     "goal": 14,
-    "next_due_date": "2026-04-10"
+    "next_due_date": "Mar 28, 2026"
   },
   {
     "id": 4,
@@ -42,10 +42,10 @@
     "email": "nusrat.jahan@example.com",
     "days_since_contact": 6,
     "status": "on-track",
-    "tags": ["college", "study group"],
+    "tags": ["College", "Study Group"],
     "bio": "Top student in our study group. Always helps with difficult subjects.",
     "goal": 10,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "Jul 10, 2026"
   },
   {
     "id": 5,
@@ -54,10 +54,10 @@
     "email": "rakib.ahmed@example.com",
     "days_since_contact": 25,
     "status": "overdue",
-    "tags": ["childhood friend", "gaming"],
+    "tags": ["Childhood Friend", "Gaming"],
     "bio": "Grew up together and still play online games when we get time.",
     "goal": 14,
-    "next_due_date": "2026-04-05"
+    "next_due_date": "Feb 20, 2026"
   },
   {
     "id": 6,
@@ -66,10 +66,10 @@
     "email": "sadia.noor@example.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["college", "startup"],
+    "tags": ["College", "Startup"],
     "bio": "Working on a startup idea together. Very passionate about entrepreneurship.",
     "goal": 7,
-    "next_due_date": "2026-04-16"
+    "next_due_date": "Aug 05, 2026"
   },
   {
     "id": 7,
@@ -78,10 +78,10 @@
     "email": "fahim.karim@example.com",
     "days_since_contact": 14,
     "status": "almost due",
-    "tags": ["developer", "hackathon team"],
+    "tags": ["Developer", "Hackathon Team"],
     "bio": "Hackathon teammate. Loves backend development and system design.",
     "goal": 14,
-    "next_due_date": "2026-04-19"
+    "next_due_date": "Sep 12, 2026"
   },
   {
     "id": 8,
@@ -90,10 +90,10 @@
     "email": "tasmia.akter@example.com",
     "days_since_contact": 1,
     "status": "on-track",
-    "tags": ["close friend", "travel"],
+    "tags": ["Close Friend", "Travel"],
     "bio": "Travel buddy. We plan trips together and explore new places often.",
     "goal": 7,
-    "next_due_date": "2026-04-15"
+    "next_due_date": "Oct 30, 2026"
   },
   {
     "id": 9,
@@ -102,10 +102,10 @@
     "email": "sajid.hasan@example.com",
     "days_since_contact": 5,
     "status": "on-track",
-    "tags": ["colleague", "tech"],
+    "tags": ["Colleague", "Tech"],
     "bio": "Expert in React and Node.js. Often helps me with architectural decisions.",
     "goal": 7,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "Nov 15, 2026"
   },
   {
     "id": 10,
@@ -114,10 +114,10 @@
     "email": "liza.m@example.com",
     "days_since_contact": 12,
     "status": "almost due",
-    "tags": ["neighbor", "photography"],
+    "tags": ["Neighbor", "Photography"],
     "bio": "Incredible photographer. We often go on photo walks around the city.",
     "goal": 14,
-    "next_due_date": "2026-04-25"
+    "next_due_date": "Dec 25, 2026"
   },
   {
     "id": 11,
@@ -126,10 +126,10 @@
     "email": "arif.walid@example.com",
     "days_since_contact": 30,
     "status": "overdue",
-    "tags": ["school friend", "football"],
+    "tags": ["School Friend", "Football"],
     "bio": "Old school friend. We used to play in the same football team.",
     "goal": 21,
-    "next_due_date": "2026-03-15"
+    "next_due_date": "Jan 10, 2026"
   },
   {
     "id": 12,
@@ -138,9 +138,9 @@
     "email": "zarin.s@example.com",
     "days_since_contact": 0,
     "status": "on-track",
-    "tags": ["best friend", "music"],
+    "tags": ["Best Friend", "Music"],
     "bio": "Shares my taste in music. We are currently learning to play the guitar together.",
     "goal": 7,
-    "next_due_date": "2026-04-14"
+    "next_due_date": "May 20, 2026"
   }
 ]

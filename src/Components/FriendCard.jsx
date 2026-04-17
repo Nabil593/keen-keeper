@@ -10,7 +10,7 @@ const FriendCard = ({ friend }) => {
 
   return (
     <div className="flex justify-center">
-      <Link href={`friends/${friend.id}`} className="card bg-white w-full max-w-sm shadow-xl hover:shadow-2xl transition-all border border-gray-100">
+      <Link href={`friends/${friend.id}`} className="card bg-white w-full max-w-sm shadow-sm hover:shadow-2xl transition-all border border-gray-100">
         <div className="flex flex-col items-center pt-8">
           <figure className="rounded-full p-1">
             <Image 
@@ -38,7 +38,7 @@ const FriendCard = ({ friend }) => {
             ))}
           </div>
 
-          <div className={`badge ${statusColor} text-xs text-white uppercase`}>
+          <div className={`badge ${statusColor} text-xs text-white font-medium uppercase`}>
               {friend.status}
             </div>
         </div>
