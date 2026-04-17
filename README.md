@@ -1,6 +1,4 @@
-# 🗝️ KeenKeeper
-
-**"Your personal shelf of meaningful connections."**
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
 KeenKeeper is a high-end, minimalist web application designed to track and manage personal interactions and digital relationships. Built with a focus on "pixel-perfect" design, it serves as a sophisticated dashboard for maintaining a curated history of your most important connections.
 
@@ -16,13 +14,14 @@ KeenKeeper is a high-end, minimalist web application designed to track and manag
 
 Built with a cutting-edge stack for speed and scalability:
 
-* **Framework:** [Next.js 15+](https://nextjs.org/) (App Router, Server & Client Components)
+* **Framework:** [Next.js](https://nextjs.org/) (App Router, Server & Client Components)
 * **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Utility-first styling) & [DaisyUI](https://daisyui.com/)
 * **Typography:** [Geist](https://vercel.com/font) (Premium font by Vercel)
 * **State Management:** [React Context API](https://react.dev/learn/passing-data-deeply-with-context)
 * **Icons:** [React Icons](https://react-icons.github.io/react-icons/) (Lucide, Feather, FontAwesome)
 * **Charts:** [Recharts](https://recharts.org/) (For beautiful, minimalist data visualization)
-* **Language:** [TypeScript](https://www.typescriptlang.org/) / [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* **Language:** [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* **Notifications:** [React Toastify](https://fkhadra.github.io/react-toastify/) (Integrated for instant visual feedback upon adding interaction logs)
 
 ---
 
@@ -48,17 +47,16 @@ Built with a cutting-edge stack for speed and scalability:
 
 ---
 
-## 👤 Author: Shariea Reza Nabil (SR Nabil)
+## 👤 Author: Shariea Reza Nabil
 
-A self-taught Full Stack Developer from Bangladesh, focusing on building scalable digital systems and high-level software engineering.
+A Frontend (MERN) Developer from Bangladesh, focusing on building scalable digital systems and high-level software engineering.
 
 ### 🔗 Connect with me:
 * **GitHub:** [github.com/srnabil](https://github.com/srnabil)
 * **LinkedIn:** [linkedin.com/in/shariea-reza-nabil](https://www.linkedin.com/in/shariea-reza-nabil/)
-* **Portfolio:** [srnabil.com](https://srnabil.com)
 
 ---
 
 <p align="center">
-  Built with 🖤 and Precision by <b>SR Nabil</b>
+  Built with 🖤 and Precision by <b>Shariea Reza Nabil</b>
 </p>
