@@ -16,16 +16,15 @@ const StatsPage = () => {
     ];
 
     return (
-        <div className="max-w-[1300px] mx-auto w-full my-20 space-y-10">
+        <div className="max-w-[1200px] mx-auto w-full mb-30 lg:px-12 md:px-6 px-4 my-20 space-y-10">
             <p className="text-4xl font-bold ">Friendship Analytics</p>
 
             <div className="bg-white shadow-sm p-8 rounded-md">
-                <p>By Interaction Type</p>
+                <p className="text-[20px] font-medium text-[#244D3F]">By Interaction Type</p>
 
-                {/* ৩. চার্ট রেন্ডার করা */}
                 <div style={{ width: '100%', height: 300 }}>
                     <ResponsiveContainer width="100%" height="100%">
-                        <PieChart>
+                        <PieChart className="outline-none" activeShape={{ stroke: 'none', outline: 'none' }}>
                             <Tooltip
                                 contentStyle={{ borderRadius: '10px', border: 'none', boxShadow: '0px 4px 10px rgba(0,0,0,0.1)' }}
                             />
@@ -36,6 +35,7 @@ const StatsPage = () => {
                                 paddingAngle={5}
                                 cornerRadius={8}
                                 dataKey="value"
+                                activeShape={{ stroke: 'none', outline: 'none' }}
                             >
                                 {chartData.map((entry, index) => (
                                     <Cell key={index} fill={entry.fill} />
