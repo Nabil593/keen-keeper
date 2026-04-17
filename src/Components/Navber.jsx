@@ -28,7 +28,7 @@ const Navber = () => {
                 </div>
 
                 <div className="flex-none lg:block md:block hidden">
-                    <ul className="menu menu-horizontal gap-4 text-[18px] px-1 font-medium text-black">
+                    <ul className="menu menu-horizontal gap-4 text-[16px] px-1 font-medium text-black">
                         {link}
                     </ul>
                 </div>
@@ -43,7 +43,7 @@ const Navber = () => {
             {
                 open &&
                 <div className="flex flex-row lg:hidden md:hidden bg-white">
-                    <ul className="menu gap-4 text-[18px] px-1 font-medium text-black ml-4">
+                    <ul className="menu gap-4 text-[16px] px-1 font-medium text-black ml-4 my-4">
                         {link}
                     </ul>
                 </div>
