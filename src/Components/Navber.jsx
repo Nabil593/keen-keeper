@@ -22,7 +22,7 @@ const Navber = () => {
     return (
         <div>
 
-            <div className="navbar bg-white shadow-sm px-8">
+            <div className="navbar bg-white shadow-sm lg:px-12 md:px-6 px-4">
                 <div className="flex-1">
                     <Link href="/" className="text-black text-2xl"><h1 className="font-bold">Keen<span className="text-[#244D3F]">Keeper</span></h1></Link>
                 </div>
