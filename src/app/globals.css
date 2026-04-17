@@ -15,3 +15,13 @@
 * {
   font-family: var(--font-geist) !important;
 }
+
+/* Click korle jate focus border na ashe */
+path.recharts-sector:focus {
+  outline: none !important;
+}
+
+/* Sudhu stroke remove korte chaile */
+.recharts-pie-sector {
+  outline: none;
+}
